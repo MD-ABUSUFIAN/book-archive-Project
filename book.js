@@ -62,7 +62,7 @@ const totalResult=()=>{
 }
 // diplayResult
 const diplayResult=data=>{
-  if (data.numFound==0) {
+  if (data.numFound===0) {
     result.innerText="No Result Found"
   }
   else{
