@@ -63,7 +63,7 @@ const totalResult=()=>{
 // diplayResult
 const diplayResult=data=>{
   if (data.numFound==0) {
-    result.innerText="Invalid search Name"
+    result.innerText="No Result Found"
   }
   else{
     const bookCount=data.docs;
@@ -71,5 +71,3 @@ const diplayResult=data=>{
   }
   
 }
-
-console.log("connect");
